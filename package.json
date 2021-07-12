@@ -2,10 +2,11 @@
   "name": "shopping-cart-kata",
   "version": "1.0.0",
   "description": "This file will act a bit like a blog post which I will update as I work on the task.\r I've pasted the task verbatim underneath, so I can refer to it.",
-  "main": "index.js",
+  "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node src/index.js prices.json cart.json"
   },
   "repository": {
     "type": "git",
